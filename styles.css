@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* :root {
+
+} */
+
+body {
+    font-size: 1rem;
+}
+
+.header-background-image {
+    width: 50%;
+    height: 720px;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+.main-wrapper {
+    width: 76.107%;
+    /*width: 1169px & total screen size: 1536px*/
+    height: 150vh;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+#navbar {
+    overflow: hidden;
+    /* border: 2px solid blue; */
+    padding: 17px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.nav-transparent {
+    background: transparent;
+}
+
+#navbar h1 {
+    margin-right: 6.625rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+}
+
+#login-text {
+    color: white;
+}
+
+.btn {
+    padding: 10px 13px;
+    border-radius: 4px;
+    border: none;
+}
+
+.sign-up-btn {
+    color: white;
+    background: orange;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+.sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: white;
+}
+
+.login-text-scroll {
+    color: black !important;
+}
